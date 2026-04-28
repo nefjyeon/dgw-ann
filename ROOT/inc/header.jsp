@@ -1,0 +1,193 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- header.jsp -->
+<!DOCTYPE html>
+	<html lang="ko-KR" class="no-js">
+		<!--[if IE 8 ]> <html class="no-js lt-ie9 ie8" lang="ko-KR">
+			<![endif]--><!--[if IE 9 ]> <html class="no-js lt-ie10 ie9" lang="ko-KR">
+			<![endif]--><!--[if (gte IE 10)|!(IE)]><!-->
+		<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<title>동원대학교 연간업무계획관리시스템</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,700,800,900,500">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/board.css?v=1">
+	<link rel="stylesheet" type="text/css" href="/css/style_ann.css">
+
+	<script type="text/javascript" src="/lib/html5shiv.js"></script>
+	<link rel="stylesheet" href="/css/jquery-ui.css">
+	<link rel="stylesheet" href="/css/jquery-ui-timepicker-addon.css">
+	<script type="text/javascript" src="/lib/html5shiv.js"></script>
+	<!--<script type="text/javascript" src="/lib/IE9.js"></script>-->
+	<script type="text/javascript" src="/lib/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui-sliderAccess.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui-timepicker-addon.js"></script>
+	<script type="text/javascript" src="/lib/jquery.play.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="/lib/jquery.form.js"></script>
+	<script type="text/javascript" src="/lib/placeholders.min.js"></script>
+
+	<link rel="stylesheet" href="/css-new/responsive.css?v=1">
+	<script src="https://kit.fontawesome.com/6026cbbd9c.js" crossorigin="anonymous"></script>
+
+
+	<!-- /* <script src="/js/jquery.tmpl.js"></script>  */ -->
+
+	<!--[if lt IE 9]>
+		<script src="/lib/html5shiv-printshiv.js"></script>
+	<![endif]-->
+
+	<!-- <script type="text/javascript">
+		if (window.location.protocol.toLowerCase().indexOf("https") == -1 && (window.location.port == "" || window.location.port == "80")) {
+			window.location.replace(window.location.href.replace(/^.+:\/\//, "https://"));
+		}
+	</script> -->
+</head>
+
+<body>
+<div id="wrap-new">
+	
+	<!-- Header -->
+  <!-- 사용용도 : 관라자, 교직원 -->
+    <header id="header-new">
+      <div class="header-new">
+				<!-- 로고, 모바일 접속자/로그아웃 -->
+        <div class="col-left">
+          <h1><a href="/"><img src="/img/logo_tongwonAnnualSys-wh.svg" alt="동원대학교 연간업무계획관리시스템"></a></h1>
+
+					<!-- 모바일일 때 나타나는 접속자, 주요현황/로그아웃 -->
+					<div class="mobile-login xs-show">
+						<div class="wrap-admin">
+							<i class="icon admin"><a></a></i>
+							<!-- 모바일 팝업 주요현황/로그아웃 버튼 영역 -->
+							<div id="pop-overlay" class="pop-login pop-overlay">
+								<div class="data-user"><a href="#">시스템관리자님</a> 환영합니다.</div>
+								<div class="pop-login-btnWrap">
+									<a class="btn-area" href="#" >
+										<i class="button system-btn"></i>
+										<span>주요현황</span>
+									</a>
+									<a class="btn-area" href="#" >
+										<i class="button system-btn"></i>
+										<span>로그아웃</span>
+									</a>
+								</div>
+							</div>
+							<!-- // 모바일 팝업 주요현황/로그아웃 버튼 영역 -->
+						</div>
+					</div>
+					<!-- // 모바일일 때 나타나는 접속자, 주요현황/로그아웃 -->
+
+        </div>
+				<!-- // 로고, 모바일 접속자/로그아웃 -->
+
+
+				<!-- pc 접속자/주요현황/로그아웃, pc/모바일 화면 제목 및 메뉴 -->
+        <div class="col-right">
+          
+          <!-- Nav pc/모바일 화면 메뉴 및 표기 -->
+          <nav id="nav-new">
+            <div class="mobile-menu xs-show"><a href="#none"><i class="icon mb-menu"></i></a>
+              <span>조직·인력 관리</span> <!-- 화면 이름이 들어갈 곳 -->
+            </div>
+            <ul class="nav-new">
+              <li class="active">
+                <a href="dep-plan0.jsp">조직·인력 관리</a>
+              </li>
+              <li class="">
+                <a href="dep-plan2-1-1_admin.jsp">업무 현황 및 세부사업 추진 계획</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- //Nav pc/모바일 화면 메뉴 및 표기 -->
+					 
+					<!-- pc 접속자/주요현황/로그아웃 영역 / 모바일일 때 사라짐 -->
+					<div class="login-new xs-hidden">
+						<div class="wrap-admin">
+							<i class="icon admin"></i><span><a href="#">시스템관리자님</a> 환영합니다.</span>
+						</div>
+						<div class="btn-area">
+							<a href="#" class="button system-btn"><span>주요현황</span></a>
+							<div class="tooltip-box t-b1"></div>
+						</div>
+						<div class="btn-area">
+							<a href="#" class="button system-btn"><span>로그아웃</span></a>
+							<div class="tooltip-box t-b2"></div>
+						</div>
+          </div>
+					<!-- // pc 접속자/주요현황/로그아웃 영역 / 모바일일 때 사라짐 -->
+        </div>
+				<!-- pc 접속자/주요현황/로그아웃, 모바일 화면 제목 및 메뉴 -->
+      </div>
+    </header>
+	<!-- //Header -->
+
+
+	<!-- Container --> 
+	<section class="sub-container" >
+
+		<!-- 모바일 서브 화면 메뉴 -->
+		<div class="mobile-lnb xs-show">
+			<select id="lnbOperationSelect" class="" onchange="goLnb(this, '', '');">
+				<option selected="" value="">부서/인력 구성</option> <!-- dep-plan1-2.jsp -->
+				<option value="">핵심 추진과제 및 업무 분장</option> <!-- dep-plan1-3.jsp -->
+			</select>
+		</div>
+		<!-- // 모바일 서브 화면 메뉴 -->
+
+		<!-- 사이드메뉴 시작 -->
+		<div class="col-lnb">
+
+			<div class="lnb-title">
+				<p>교무학생처</p>
+			</div>
+
+			<!-- 진짜메뉴 시작 /모바일에서 사라짐  -->
+      <div class="lnb xs-hidden">
+	
+				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
+				<div class="lnb-smenu active progress ">
+					<!-- 메뉴1 -->
+					<a href="dep-plan1-2.jsp">
+						<!-- 접속한 화면에는 p에 .active 클래스 추가-->
+						<p class="active">부서/인력 구성</p>
+					</a>
+				</div>
+        
+				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
+				<div class="lnb-smenu active progress ">
+
+					<!-- 메뉴2 -->
+					<a href="dep-plan1-3.jsp">
+						<p class="">핵심 추진과제 및 업무 분장</p>
+					</a>
+
+
+				</div>
+
+		</div>
+		<!-- // 진짜메뉴 시작 /모바일에서 사라짐  -->
+
+	</div>
+	<!-- 사이드메뉴끝 -->
+
+
+<!-- // header.jsp -->
+			
+			
+
+
+
+			
+			
+			

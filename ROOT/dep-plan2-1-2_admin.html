@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+	<html lang="ko-KR" class="no-js">
+		<!--[if IE 8 ]> <html class="no-js lt-ie9 ie8" lang="ko-KR">
+			<![endif]--><!--[if IE 9 ]> <html class="no-js lt-ie10 ie9" lang="ko-KR">
+			<![endif]--><!--[if (gte IE 10)|!(IE)]><!-->
+		<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<title>동원대학교 연간업무계획관리시스템</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,700,800,900,500">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/board.css?v=1">
+	<link rel="stylesheet" type="text/css" href="/css/style_ann.css">
+
+	<script type="text/javascript" src="/lib/html5shiv.js"></script>
+	<link rel="stylesheet" href="/css/jquery-ui.css">
+	<link rel="stylesheet" href="/css/jquery-ui-timepicker-addon.css">
+	<script type="text/javascript" src="/lib/html5shiv.js"></script>
+	<!--<script type="text/javascript" src="/lib/IE9.js"></script>-->
+	<script type="text/javascript" src="/lib/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui-sliderAccess.js"></script>
+	<script type="text/javascript" src="/lib/jquery-ui-timepicker-addon.js"></script>
+	<script type="text/javascript" src="/lib/jquery.play.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="/lib/jquery.form.js"></script>
+	<script type="text/javascript" src="/lib/placeholders.min.js"></script>
+
+	<link rel="stylesheet" href="/css-new/responsive.css?v=1">
+	<script src="https://kit.fontawesome.com/6026cbbd9c.js" crossorigin="anonymous"></script>
+
+
+	<!-- /* <script src="/js/jquery.tmpl.js"></script>  */ -->
+
+	<!--[if lt IE 9]>
+		<script src="/lib/html5shiv-printshiv.js"></script>
+	<![endif]-->
+
+	<!-- <script type="text/javascript">
+		if (window.location.protocol.toLowerCase().indexOf("https") == -1 && (window.location.port == "" || window.location.port == "80")) {
+			window.location.replace(window.location.href.replace(/^.+:\/\//, "https://"));
+		}
+	</script> -->
+</head>
+
+<body>
+<div id="wrap-new">
+	
+	<!-- Header -->
+  <!-- 사용용도 : 관라자, 교직원 -->
+    <header id="header-new">
+      <div class="header-new">
+				<!-- 로고, 모바일 접속자/로그아웃 -->
+        <div class="col-left">
+          <h1><a href="/"><img src="/img/logo_tongwonAnnualSys-wh.svg" alt="동원대학교 연간업무계획관리시스템"></a></h1>
+
+					<!-- 모바일일 때 나타나는 접속자, 주요현황/로그아웃 -->
+					<div class="mobile-login xs-show">
+						<div class="wrap-admin">
+							<i class="icon admin"><a></a></i>
+							<!-- 모바일 팝업 주요현황/로그아웃 버튼 영역 -->
+							<div id="pop-overlay" class="pop-login pop-overlay">
+								<div class="data-user"><a href="#">시스템관리자님</a> 환영합니다.</div>
+								<div class="pop-login-btnWrap">
+									<a class="btn-area" href="#" >
+										<i class="button system-btn"></i>
+										<span>주요현황</span>
+									</a>
+									<a class="btn-area" href="#" >
+										<i class="button system-btn"></i>
+										<span>로그아웃</span>
+									</a>
+								</div>
+							</div>
+							<!-- // 모바일 팝업 주요현황/로그아웃 버튼 영역 -->
+						</div>
+					</div>
+					<!-- // 모바일일 때 나타나는 접속자, 주요현황/로그아웃 -->
+
+        </div>
+				<!-- // 로고, 모바일 접속자/로그아웃 -->
+
+
+				<!-- pc 접속자/주요현황/로그아웃, pc/모바일 화면 제목 및 메뉴 -->
+        <div class="col-right">
+          
+          <!-- Nav pc/모바일 화면 메뉴 및 표기 -->
+          <nav id="nav-new">
+            <div class="mobile-menu xs-show"><a href="#none"><i class="icon mb-menu"></i></a>
+              <span>업무 현황 및 세부사업 추진 계획</span>
+            </div>
+            <ul class="nav-new">
+              <li class="">
+                <a href="dep-plan0.html">조직·인력 관리</a>
+              </li>
+              <li class="active">
+                <a href="dep-plan2-1-1_admin.html">업무 현황 및 세부사업 추진 계획</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- //Nav pc/모바일 화면 메뉴 및 표기 -->
+					 
+					<!-- pc 접속자/주요현황/로그아웃 영역 / 모바일일 때 사라짐 -->
+					<div class="login-new xs-hidden">
+						<div class="wrap-admin">
+							<i class="icon admin"></i><span><a href="#">시스템관리자님</a> 환영합니다.</span>
+						</div>
+						<div class="btn-area">
+							<a href="#" class="button system-btn"><span>주요현황</span></a>
+							<div class="tooltip-box t-b1"></div>
+						</div>
+						<div class="btn-area">
+							<a href="#" class="button system-btn"><span>로그아웃</span></a>
+							<div class="tooltip-box t-b2"></div>
+						</div>
+          </div>
+					<!-- // pc 접속자/주요현황/로그아웃 영역 / 모바일일 때 사라짐 -->
+        </div>
+				<!-- pc 접속자/주요현황/로그아웃, 모바일 화면 제목 및 메뉴 -->
+      </div>
+    </header>
+	<!-- //Header -->
+
+
+	<!-- Container --> 
+	<section class="sub-container" >
+
+		<!-- 모바일 서브 화면 메뉴 -->
+		<div class="mobile-lnb xs-show">
+			<select id="lnbOperationSelect" class="" onchange="goLnb(this, '', '');">
+				<option selected="" value="">대학발전계획</option>
+				<option value="">기관평가인증</option>
+				<option value="">부서일반업무</option>
+			</select>
+		</div>
+		<!-- // 모바일 서브 화면 메뉴 -->
+
+		<!-- 사이드메뉴 시작 -->
+		<div class="col-lnb">
+
+			<div class="lnb-title">
+				<p>업무 현황 및 세부사업 추진 계획</p>
+			</div>
+
+			<!-- 진짜메뉴 시작 /모바일에서 사라짐  -->
+      <div class="lnb xs-hidden">
+	
+				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
+				<div class="lnb-smenu active progress ">
+					<!-- 메뉴1 -->
+					<a href="dep-plan2-1-1_admin.html">
+						<!-- 접속한 화면에는 p에 .active 클래스 추가-->
+						<p class="active">대학발전계획</p>
+					</a>
+				</div>
+        
+				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
+				<div class="lnb-smenu active progress ">
+					<!-- 메뉴2 -->
+					<a href="dep-plan3-2-1.html">
+						<p class="">기관평가인증</p>
+					</a>
+				</div>
+
+				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
+				<div class="lnb-smenu active progress ">
+					<!-- 메뉴2 -->
+					<a href="dep-plan3-3-1.html">
+						<p class="">부서일반업무</p>
+					</a>
+				</div>
+
+		</div>
+		<!-- // 진짜메뉴 시작 /모바일에서 사라짐  -->
+
+	</div>
+	<!-- 사이드메뉴끝 -->
+	
+		
+	
+	
+		<div class="col-contents">
+			<div class="subCon">
+        <div class="table-responsive">
+          <!-- 컨텐츠 영역 -->
+          <!-- <h2>부서별 업무 현황</h2> -->
+					<!-- 해당 영역 screen id 2510-02-04-01 에서 제외됨-->
+          <!-- <div class="main_tab-menu" style="margin-bottom:30px;">
+            <div class="m-tab active"><a href="">교무과</a></div>
+						<div class="m-tab"><a href="">학생과</a></div>
+						<div class="m-tab"><a href="">성인학습자지원센터</a></div>
+          </div> -->
+          
+          <h3>대학발전계획</h3>
+					<!-- <div class="tab-menu" style="margin-bottom:30px;">
+            <div class="tab active"><a href="dep-plan2-1-1_admin.html">대학발전계획</a></div>
+						<div class="tab"><a href="dep-plan3-2-1.html">기관평가인증</a></div>
+						<div class="tab"><a href="dep-plan3-3-1.html">부서일반업무</a></div>
+          </div> -->
+
+					<h4>업무 등록</h4>
+					<p class="box_txt">
+						<!-- &lt;작성요령&gt; -->
+						<span style="color:#f00;">
+							※ 업무 분류 시 실행과제 중심으로 하되 필요한 경우 실행과제를 2개 이상 통합하거나 또는 분하여 
+							사업 번호를 구분할 수 있으며, 업무 번호 부여 시 실행과제 중심으로 업무번호가 
+							“업무-1”인 경우 통합 또는 분할인 경우 “업무-1-a”로 구분하여 제시
+						</span><br>
+					</p><br>
+
+          <div class="tabBox">
+            
+						<div class="table-responsive">
+							<table class="bodyTbl complexTbl">
+							<!-- <table class="headTbl bdl"> -->
+								<colgroup>
+									<col width="14%">
+									<col width="*">
+									<col width="14%">
+									<col width="*">
+								</colgroup>
+								<tbody>
+									<tr>
+										<th>구분</th>
+										<td colspan="">대학발전계획</td>
+										<th>업무 기준 연도</th>
+										<td>
+											<select name="sub0" id="sub0">
+												<option value="">==연도 선택==</option>
+												<option value="123" selected>2025</option>
+												<option value="124">2024</option>		
+												<option value="123">2023</option>
+											</select>
+										</td>
+									</tr>
+
+									<tr>
+						
+										<td colspan="4" class="noPadding">
+											<table class="subTbl depSubTbl">
+												<colgroup>
+													<col width="14%">
+													<col width="3%">
+													<col width="6%">
+													<col width="*">
+												</colgroup>
+												<thead>
+													<tr>
+														<th class="bdl0 center">과제 구분</th>
+														<th class="center">선택</th>
+														<th class="center">번호</th>
+														<th class="bdr0 center">내용</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th rowspan="2" class="bdl0 center">전략</th>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td colspan="2">
+															<select name="sub1" id="sub1">
+																<option value="">==이미 등록된 전략 중 선택하세요==</option>
+																<option value="123" selected>1.학생중심 교육혁신 체계강화</option>
+																<option value="124">2.dd</option>		
+																<option value="123">3.ff</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td><input type="text" placeholder="1"></td>
+														<td><input type="text" placeholder="신규 추가할 전략을 입력하세요."></td>
+													</tr>
+													<tr>
+														<th rowspan="2" class="bdl0 center">전략과제</th>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td colspan="2">
+															<select name="sub2" id="sub2">
+																<option value="">==이미 등록된 전략과제 중 선택하세요==</option>
+																<option value="123" selected>1.aa</option>
+																<option value="124">2.dd</option>		
+																<option value="123">3.ff</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td><input type="text" placeholder="1.1"></td>
+														<td><input type="text" placeholder="신규 추가할 전략과제를 입력하세요."></td>
+													</tr>
+													<tr>
+														<th rowspan="2" class="bdl0 center">실행과제</th>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td colspan="2">
+															<select name="sub3" id="sub3">
+																<option value="">==등록된 실행과제 중 선택하세요==</option>
+																<option value="123" selected>1.aa</option>
+																<option value="124">2.dd</option>		
+																<option value="123">3.ff</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="center"><label class="btn-label"><input type="radio" name="t1"></label></td>
+														<td><input type="text" placeholder="1.1.1"></td>
+														<td><input type="text" placeholder="신규 추가할 실행과제를 입력하세요."></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+		
+									</tr>
+
+									<tr>
+										<th>업무명(업무번호)</th>
+										<td><input type="text" placeholder="교무-1-a"></td>
+										<th>관련 성과지표</th>
+										<td><input type="text" placeholder="전공 강좌당 학생 수"></td>
+									</tr>
+									<tr>
+										<th>업무 구분</th>
+										<td>
+											<label class="depChk"><input type="radio" name="eORn"> 신규</label>
+											<label class="depChk"><input type="radio" name="eORn"> 기존</label>
+											<label class="depChk"><input type="checkbox"> 확대/개선</label>
+										</td>
+										<th>예산 구분</th>
+										<td>
+											<label class="depChk"><input type="radio" name="budget"> 예산사업</label>
+											<label class="depChk"><input type="radio" name="budget"> 비예산사업</label>
+										</td>
+									</tr>
+									<tr>
+										<th>주관 부서</th>
+										<td>
+											<select name="sub4" id="sub4">
+												<option value="">==부서==</option>
+												<option value="123" selected>교무학생처</option>
+												<option value="124">2.dd</option>		
+												<option value="123">3.ff</option>
+											</select>
+											<select name="sub5" id="sub5">
+												<option value="">==세부 부서==</option>
+												<option value="123" selected>교무과</option>
+												<option value="124">2.dd</option>		
+												<option value="123">3.ff</option>
+											</select>
+										</td>
+										<th>협업부서</th>
+										<td colspan="">학생과, 학생상담센터 <a href="#" class="btn low grey">검색</a></td>
+									</tr>
+									<tr>
+										<th>추진 담당자</th>
+										<td>김직원, 차무식 <a href="#" class="btn low grey">검색</a></td>
+										<th>책임자</th>
+										<td>백과장 <a href="#" class="btn low grey">검색</a></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+						
+            
+          </div>
+
+        <!-- // 컨텐츠 영역 -->
+      </div>
+    </div>
+
+
+
+
+			<div id="FOOTER_AREA" class="bottom-button-wrap">
+        <a href="dep-plan2-1-1_admin.html" class="button gray-line size-mid min-width">목록</a>
+				<a href="dep-plan3-1-1.html" class="button blue size-mid min-width">저장</a>
+			</div>
+
+		</div>
+	</section>
+	<!-- //Container -->
+</div>
+
+
+<script>
+
+	$(function(){
+
+		$(".system-btn").each(function(idx){
+			const $this = $(this);
+			$this.hover(
+				function(){
+					$this.next().animate({opacity: '1'}, 300);
+				},
+				function(){
+					$this.next().animate({opacity: '0'}, 50);
+				}
+			);
+		});
+
+		$('.icon.admin>a').click(function() {
+				$('.pop-login').toggle();
+		});
+
+    $('.mobile-menu>a').click(function() {
+				$('.nav-new').toggle();
+		});
+
+		
+	});
+
+</script>
+
+
+
+<div class="popBg" style="display:none;"></div>
+
+
+		
+
+
+
+
+</body>
+
+  
+
+
+</html>
