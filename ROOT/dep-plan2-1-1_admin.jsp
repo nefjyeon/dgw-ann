@@ -192,7 +192,7 @@
 
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
-        <!-- <a href="dep-plan0.jsp" class="button gray-line size-mid min-width">목록</a> -->
+        <a href="dep-plan0.jsp" class="button gray-line size-mid min-width">목록</a>
 				<!-- <a href="#" class="button gray-line size-mid min-width"><span class="material-symbols-outlined icon_foot-prev">
 chevron_backward
 </span> 이전</a> -->

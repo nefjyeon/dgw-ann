@@ -91,15 +91,14 @@ input::placeholder, textarea::placeholder {
 		box-shadow:2px 2px 46px 0px rgba(4, 0, 0, .05);
 	}
 .lnb-title > p {
-    display:table-cell;
+    display: table-cell;
     width: 100%;
 		/* background-color:#a9adea; */
-    padding:10px 16px;
+    padding: 10px 10px;
 		font-weight:bold;
-    vertical-align:middle;
-    height:60px;
-		line-height:1.45;
-    text-align:center;
+    vertical-align: middle;
+    height: 60px;
+    text-align: center;
 }
 
 
@@ -122,7 +121,7 @@ input::placeholder, textarea::placeholder {
 		/* width:100%; */
 		display: block; 
 		padding:45px 30px;
-		margin-right:30px;
+		margin-right:20px;
 		background-color:#fff;
 		box-shadow:2px 2px 46px 0px rgba(4, 0, 0, .05);
 	}
@@ -187,11 +186,8 @@ input::placeholder, textarea::placeholder {
 		height:16px;
 		background-size:contain;
 		display:inline-block;
-		/* margin-right:5px; */
-		width:22px;
-    height:19px;
-    vertical-align:top;
-    margin-top:6px;
+		margin-right:5px;
+		
 	}
 	.subCon h5 {
 		padding-bottom:10px;
@@ -199,8 +195,7 @@ input::placeholder, textarea::placeholder {
 		color:#222;
 		line-height: 150%;
 		font-family:"NotoKR-Regular", Sans-serif;
-		font-weight:400;
-	}
+		font-weight: 400;}
 
 
 	/* .subNav .tit{width:220px;height:123px;text-align:center;vertical-align:middle;display:table-cell;font-size:24px;font-weight:bold;color:#fff;line-height:36px;}
@@ -1702,18 +1697,6 @@ table.rowBdb.headTbl tbody tr:last-child td {
 	vertical-align:middle;
 	margin-top:0;
 }
-/* 2600108 추가 */
-.listPop.pop_table td:first-child {
-  padding: 0;
-}
-.listPop.pop_table .fix_headTbl .depChk {
-  height:33px;
-}
-.pop_table .depChk input[type="checkbox"],
-.pop_table .depChk input[type="radio"] {
-    margin-top: 10px;
-}
-/* //2600108 추가 */
 
 table.subTbl.depSubTbl tr td {
 	border-bottom:1px solid #ddd;
@@ -2702,8 +2685,8 @@ table.headTbl{width:100%;margin-bottom:15px;}
 .sub-container .col-lnb { 
 	display: table-cell; 
 	vertical-align: top; 
-	min-width:250px;
-	width:250px; 
+	min-width:290px;
+	width:290px; 
 	padding-left:25px;
 	padding-right:25px;
 	padding-top:20px;
@@ -2795,22 +2778,17 @@ background-color:#F2F6FE; box-sizing:border-box; border-radius:5px 5px 0 0; bord
 	}
 	#header-new .col-left {
 		vertical-align: top; 
-		max-width:300px;
+		max-width:342px;
 		width:100%;
 		float:left;
 	}
 	
 	#header-new .col-left h1 {
 		text-align:center;
-		padding:0 25px;
-		width:250px;
-	}
-	#header-new .col-left h1>a {
-		display:block;
+		padding:0 38px;
 	}
 	#header-new .col-left a>img {
-		width:90%;
-		vertical-align:top;
+		width:100%;
 	}
 	#header-new .col-right {
 		float:left;
@@ -3189,11 +3167,6 @@ background-color:#F2F6FE; box-sizing:border-box; border-radius:5px 5px 0 0; bord
 		width:100%;
 		font-size:14px;
 	}
-
-	table .low.btn.blue,
-	table .low.btn.red {
-		border-radius:100px;
-	}
 	
 	/* // button */
 
@@ -3333,9 +3306,8 @@ background-color:#F2F6FE; box-sizing:border-box; border-radius:5px 5px 0 0; bord
 	 body {
 		overflow-x:hidden;
 	 }
-	.subCon {
-		width:calc(100% - 40px);
-    padding:45px 20px;
+	 .subCon {
+		width:calc( 100% - 60px );
 	 }
 	.table-responsive {
 		width:100%;

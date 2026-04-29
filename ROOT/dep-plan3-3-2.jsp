@@ -176,6 +176,12 @@
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
         <a href="dep-plan3-3-1.jsp" class="button gray-line size-mid min-width">목록</a>
+				<!-- <a href="#" class="button gray-line size-mid min-width"><span class="material-symbols-outlined icon_foot-prev">
+chevron_backward
+</span> 이전</a> -->
+        <!-- <a href="dep-plan1.html" class="button grey size-mid min-width">수정</a> -->
+				<!-- <a href="#" class="button red size-mid min-width">삭제</a> -->
+				<!-- <a href="#" class="button blue size-mid min-width">등록</a> -->
 				<a href="dep-plan3-3-3.jsp" class="button dblue size-mid min-width">저장</a>
 			</div>
 

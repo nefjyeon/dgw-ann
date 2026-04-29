@@ -98,7 +98,7 @@
           <!-- Nav pc/모바일 화면 메뉴 및 표기 -->
           <nav id="nav-new">
             <div class="mobile-menu xs-show"><a href="#none"><i class="icon mb-menu"></i></a>
-              <span>조직·인력 관리</span> <!-- 화면 이름이 들어갈 곳 -->
+              <span>조직·인력 관리</span>
             </div>
             <ul class="nav-new">
               <li class="active">
@@ -139,8 +139,8 @@
 		<!-- 모바일 서브 화면 메뉴 -->
 		<div class="mobile-lnb xs-show">
 			<select id="lnbOperationSelect" class="" onchange="goLnb(this, '', '');">
-				<option selected="" value="">부서/인력 구성</option> <!-- dep-plan1-2.jsp -->
-				<option value="">핵심 추진과제 및 업무 분장</option> <!-- dep-plan1-3.jsp -->
+				<option selected="" value="">부서/인력 구성</option>
+				<option value="">핵심 추진과제 및 업무 분장</option>
 			</select>
 		</div>
 		<!-- // 모바일 서브 화면 메뉴 -->
@@ -158,7 +158,7 @@
 				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
 				<div class="lnb-smenu active progress ">
 					<!-- 메뉴1 -->
-					<a href="dep-plan1-2.jsp">
+					<a href="setupJob1.do">
 						<!-- 접속한 화면에는 p에 .active 클래스 추가-->
 						<p class="active">부서/인력 구성</p>
 					</a>
@@ -168,10 +168,19 @@
 				<div class="lnb-smenu active progress ">
 
 					<!-- 메뉴2 -->
-					<a href="dep-plan1-3.jsp">
+					<a href="abilityLink1_1.do">
 						<p class="">핵심 추진과제 및 업무 분장</p>
 					</a>
 
+					<!-- 메뉴3 / 마지막 하위메뉴에는 .lnb-3Smenu 와 li 에 .active 클래스 추가  -->
+					<div class="lnb-3Smenu ">
+						<ul>
+							<li class="active">
+								<a style="cursor:default;">· 부서별 세부사업 추진 계획</a>
+								<!-- 해당 링크는 링크가 아닌 단순 위치 표기용임 -->
+							</li>
+						</ul>
+					</div>
 
 				</div>
 

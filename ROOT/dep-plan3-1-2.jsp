@@ -93,7 +93,7 @@
 							<!-- .rowBdb 는 교무처 외 나머지 맨 마지막 td 보더바텀값 조정용 클래스-->
 								<colgroup>
 									<col width="4%">
-									<col width="20%">
+									<col width="*">
 									<col width="4%">
 									<col width="4%">
 									<col width="4%">
@@ -114,12 +114,12 @@
 								<thead>
 									<tr>
 										<th rowspan="2">NO</th>
-										<th rowspan="2" class="minW120">주요내용</th>
+										<th rowspan="2">주요내용</th>
 										<th colspan="12">2025학년도 일정 계획</th>
 										<th rowspan="2">추진 담당</th>
 										<th rowspan="2">책임자</th>
 										<th rowspan="2">비고</th>
-										<th rowspan="2">관리<a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue" title="추가">+</a></th>
+										<th rowspan="2">관리<a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 추가</a></th>
 									</tr>
 									<tr>
 										<th>3월</th>
@@ -159,7 +159,7 @@
 										</td>
 										<td>백과장</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -183,7 +183,7 @@
 										</td>
 										<td>백과장</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -207,7 +207,7 @@
 										</td>
 										<td>백과장</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 								</tbody>
@@ -244,16 +244,16 @@
 								<thead>
 									<tr>
 										<th>NO</th>
-										<th class="minW120">예산 반영 세부 업무</th>
+										<th>예산 반영 세부 업무</th>
 										<th>구분</th>
 										<th>2024학년도 결산(A)</th>
 										<th>2025학년도 예산(B)</th>
 										<th>2026학년도 집행(C)</th>
 										<th>증감액(C-A)</th>
 										<th>중감율(%)</th>
-										<th>당해연도<br>예산집행률(%)<br>((C/B) * 100)</th>
+										<th>당해연도 예산집행률(%) ((C/B) * 100)</th>
 										<th>비고</th>
-										<th><a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue " title="추가">+</a></th>
+										<th><a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 추가</a></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -269,7 +269,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -281,7 +281,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -295,7 +295,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -307,7 +307,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -321,7 +321,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 									<tr>
@@ -333,7 +333,7 @@
 										<td>000</td>
 										<td>00</td>
 										<td><input type="text"></td>
-										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+										<td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 삭제</a></td>
 									</tr>
 
 								</tbody>
@@ -367,9 +367,15 @@
 
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
-        <a href="dep-plan2-1-1_admin.jsp" class="button gray-line size-mid min-width">목록</a>
+        <!-- <a href="#" class="button gray-line size-mid min-width">부서 목록</a> -->
+				<!-- <a href="#" class="button gray-line size-mid min-width"><span class="material-symbols-outlined icon_foot-prev">
+chevron_backward
+</span> 이전</a> -->
+        <!-- <a href="dep-plan1.html" class="button grey size-mid min-width">수정</a> -->
+				<!-- <a href="#" class="button red size-mid min-width">삭제</a> -->
+				<!-- <a href="#" class="button blue size-mid min-width">등록</a> -->
 				<a href="#" class="button blue size-mid min-width">저장</a>
-				<a href="#" class="button dblue size-mid min-width">작성완료</a><!-- 작성완료 시 읽기 전용 화면으로 전환-->
+				<a href="#" class="button dblue size-mid min-width">작성완료</a>
 			</div>
 
 		</div>

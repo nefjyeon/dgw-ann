@@ -95,6 +95,8 @@
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
         <a href="dep-plan0.jsp" class="button gray-line size-mid min-width">부서 목록</a>
+        <!-- <a href="dep-plan1.jsp" class="button grey size-mid min-width">수정</a>
+				<a href="#" class="button red size-mid min-width">삭제</a> -->
 			</div>
 
 		</div>

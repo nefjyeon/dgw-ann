@@ -131,6 +131,8 @@
 									<tr>
 										<th>업무명(업무번호)</th>
 										<td colspan="3"><input type="text" class="half" placeholder="기획-1-a"></td>
+										<!-- <th>판단항목</th>
+										<td><input type="text" placeholder="대학 규정 체계"></td> -->
 									</tr>
 									<tr>
 										<td colspan="4" class="noPadding">
@@ -150,28 +152,28 @@
 														<th>NO</th>
 														<th>판단항목</th>
 														<th>관련 성과지표</th>
-														<th><a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue" title="추가">+</a></th>
+														<th><a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue ">+</a></th>
 													</tr>
 
 													<tr>
 														<td class="center">1</td>
 														<td rowspan=""><input type="text" value="대학 규정 체계"></td>
 														<td rowspan=""><input type="text" value="규정 준수율"></td>
-														<td class="center"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+														<td class="center"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
 													</tr>
 
 													<tr>
 														<td class="center">2</td>
 														<td rowspan=""><input type="text" value="조직구성과 업무분장 일치"></td>
 														<td rowspan=""><input type="text" value="절차 준수율"></td>
-														<td class="center"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+														<td class="center"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
 													</tr>
 													
 													<tr>
 														<td class="center bdb0">3</td>
 														<td class="bdb0"><input type="text" value="규정 제개정 절차 준수"></td>
 														<td class="bdb0"><input type="text" value="규정 준수율"></td>
-														<td class="center bdb0"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
+														<td class="center bdb0"><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
 													</tr>
 
 												</tbody>
@@ -233,8 +235,14 @@
 
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
-        <a href="dep-plan3-2-1.jsp" class="button gray-line size-mid min-width">목록</a>
-				<a href="dep-plan3-2-3.jsp" class="button blue size-mid min-width">저장</a>
+        <!-- <a href="#" class="button gray-line size-mid min-width">부서 목록</a> -->
+				<!-- <a href="#" class="button gray-line size-mid min-width"><span class="material-symbols-outlined icon_foot-prev">
+chevron_backward
+</span> 이전</a> -->
+        <!-- <a href="dep-plan1.html" class="button grey size-mid min-width">수정</a> -->
+				<!-- <a href="#" class="button red size-mid min-width">삭제</a> -->
+				<!-- <a href="#" class="button blue size-mid min-width">등록</a> -->
+				<a href="dep-plan3-2-3.html" class="button dblue size-mid min-width">저장</a>
 			</div>
 
 		</div>

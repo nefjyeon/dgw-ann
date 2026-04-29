@@ -113,8 +113,7 @@ layout
 */
 
 @media screen and (max-width: 1200px) {
-
-	#wrap-new { min-width: auto; }
+		#wrap-new { min-width: auto; }
 
 	#header-new .header-new {
     height: calc(66px - 20px);
@@ -124,14 +123,14 @@ layout
 	}
 	#header-new .col-left h1 {
     /* width: 100%; */
-    text-align:center;
-		width:220px;
+    text-align: center;
     /* margin: 26px 38px; */
-    /* padding:0 26px; */
+    padding:0 26px;
 }
 	#header-new .col-left h1>a {
-		/* height:58px;
-		line-height:55px; */
+		display:block;
+		height:58px;
+		line-height:55px;
 		/* vertical-align:middle; */
 	}
 
@@ -235,11 +234,6 @@ layout
 	#header-new .col-left h1>a {
 		height:44px;
 		line-height:initial;
-		text-align:left;
-	}
-	#header-new .col-left a>img {
-    width:auto;
-    height:100%;
 	}
 	.mobile-login {
 		position:absolute;
