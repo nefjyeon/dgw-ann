@@ -175,9 +175,9 @@
 									</tr>
 									<tr>
 										<th>추진 담당자</th>
-										<td><a href="#" class="btn low grey">검색</a> 김직원, 차무식</td>
+										<td>김직원, 차무식 <a href="#" class="btn low grey">검색</a></td>
 										<th>책임자</th>
-										<td><a href="#" class="btn low grey">검색</a> 백과장</td>
+										<td>백과장 <a href="#" class="btn low grey">검색</a></td>
 									</tr>
 
 								</tbody>
@@ -195,14 +195,8 @@
 
 
 			<div id="FOOTER_AREA" class="bottom-button-wrap">
-        <!-- <a href="#" class="button gray-line size-mid min-width">부서 목록</a> -->
-				<!-- <a href="#" class="button gray-line size-mid min-width"><span class="material-symbols-outlined icon_foot-prev">
-chevron_backward
-</span> 이전</a> -->
-        <!-- <a href="dep-plan1.html" class="button grey size-mid min-width">수정</a> -->
-				<!-- <a href="#" class="button red size-mid min-width">삭제</a> -->
-				<!-- <a href="#" class="button blue size-mid min-width">등록</a> -->
-				<a href="dep-plan3-1-1.jsp" class="button dblue size-mid min-width">저장</a>
+        <a href="dep-plan2-1-1_admin.jsp" class="button gray-line size-mid min-width">목록</a>
+				<a href="dep-plan3-1-1.jsp" class="button blue size-mid min-width">저장</a>
 			</div>
 
 		</div>

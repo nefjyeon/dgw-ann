@@ -99,11 +99,23 @@
               <span>조직·인력 관리</span>
             </div>
             <ul class="nav-new">
+              <li class="">
+                <a href="dashboard.html">주요현황</a>
+              </li>
+              <li class="">
+                <a href="#">공지사항</a>
+              </li>
               <li class="active">
                 <a href="dep-plan0.html">조직·인력 관리</a>
               </li>
               <li class="">
                 <a href="dep-plan2-1-1_admin.html">업무 현황 및 세부사업 추진 계획</a>
+              </li>
+              <li class="">
+                <a href="#">통계 관리</a>
+              </li>
+              <li class="">
+                <a href="#">시스템 관리</a>
               </li>
             </ul>
           </nav>
@@ -136,9 +148,9 @@
 
 		<!-- 모바일 서브 화면 메뉴 -->
 		<div class="mobile-lnb xs-show">
-			<select id="lnbOperationSelect" class="" onchange="goLnb(this, '', '');">
-				<option value="">부서/인력 구성</option>
-				<option selected="" value="">핵심 추진과제 및 업무 분장</option>
+			<select id="lnbOperationSelect" class="" onchange="window.location.href=this.value;">
+				<option value="dep-plan1-2.html">부서/인력 구성</option>
+				<option selected="" value="dep-plan1-3.html">핵심 추진과제 및 업무 분장</option>
 			</select>
 		</div>
 		<!-- // 모바일 서브 화면 메뉴 -->

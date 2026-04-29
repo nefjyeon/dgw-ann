@@ -100,11 +100,23 @@
               <span>조직·인력 관리</span>
             </div>
             <ul class="nav-new">
+              <li class="">
+                <a href="dashboard.html">주요현황</a>
+              </li>
+              <li class="">
+                <a href="#">공지사항</a>
+              </li>
               <li class="active">
                 <a href="dep-plan0.html">조직·인력 관리</a>
               </li>
               <li class="">
                 <a href="dep-plan2-1-1_admin.html">업무 현황 및 세부사업 추진 계획</a>
+              </li>
+              <li class="">
+                <a href="#">통계 관리</a>
+              </li>
+              <li class="">
+                <a href="#">시스템 관리</a>
               </li>
             </ul>
           </nav>
@@ -138,8 +150,8 @@
 		<!-- 모바일 서브 화면 메뉴 -->
 		<div class="mobile-lnb xs-show">
 			<select id="lnbOperationSelect" class="" onchange="goLnb(this, '', '');">
-				<option selected="" value="">부서/인력 구성</option>
-				<option value="">핵심 추진과제 및 업무 분장</option>
+				<option selected="" value="dep-plan1-2.html">부서/인력 구성</option>
+				<option value="dep-plan1-3.html">핵심 추진과제 및 업무 분장</option>
 			</select>
 		</div>
 		<!-- // 모바일 서브 화면 메뉴 -->
@@ -147,17 +159,17 @@
 		<!-- 사이드메뉴 시작 -->
 		<div class="col-lnb">
 
-			<div class="lnb-title" style="display:none;">
+			<div class="lnb-title" style="">
 				<p>교무학생처</p>
 			</div>
 
 			<!-- 진짜메뉴 시작 /모바일에서 사라짐  -->
-      <div class="lnb xs-hidden" style="display:none;">
+      <div class="lnb xs-hidden" style="">
 	
 				<!-- 하위 메뉴 존재할 시 .lnb-smenu 에 .op 클래스 추가 -->
 				<div class="lnb-smenu active progress ">
 					<!-- 메뉴1 -->
-					<a href="setupJob1.do">
+					<a href="dep-plan1-2.html">
 						<!-- 접속한 화면에는 p에 .active 클래스 추가-->
 						<p class="active">부서/인력 구성</p>
 					</a>
@@ -167,7 +179,7 @@
 				<div class="lnb-smenu active progress ">
 
 					<!-- 메뉴2 -->
-					<a href="abilityLink1_1.do">
+					<a href="dep-plan1-2.html">
 						<p class="">핵심 추진과제 및 업무 분장</p>
 					</a>
 
@@ -271,7 +283,7 @@
                     <td>나처장</td>
                     <td>2043126</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -289,7 +301,7 @@
                     <td>백과장</td>
                     <td>1234012</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -297,7 +309,7 @@
                     <td class="leftTextArea" rowspan="3">
                       <div class="wrap_org-part">
                         <span>교무과(123)</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -316,7 +328,7 @@
                     <td>조과장</td>
                     <td>1243126</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -334,7 +346,7 @@
                     <td>이주임</td>
                     <td>1243252</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -352,7 +364,7 @@
                     <td>김직원</td>
                     <td>1333225</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -360,7 +372,7 @@
                     <td class="leftTextArea" rowspan="2">
                       <div class="wrap_org-part">
                         <span>학생과(124)</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -379,7 +391,7 @@
                     <td>조과장</td>
                     <td>1243126</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -397,7 +409,7 @@
                     <td>정주임</td>
                     <td>1289890</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -405,7 +417,7 @@
                     <td class="leftTextArea" rowspan="4">
                       <div class="wrap_org-part">
                         <span>성인학습자관리센터(125)</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -424,7 +436,7 @@
                     <td>정중앙</td>
                     <td>1234560</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -442,7 +454,7 @@
                     <td>부자왕</td>
                     <td>1232222</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -460,7 +472,7 @@
                     <td>박팀장</td>
                     <td>1256789</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -478,7 +490,7 @@
                     <td>주직원</td>
                     <td>1289899</td>
                     <td><label class="depChk"><input type="checkbox" name="chkTstaffUn" value=""></label></td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                 </tbody>

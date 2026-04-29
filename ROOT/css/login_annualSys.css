@@ -62,7 +62,7 @@ body {
 }
 .notice-panel {
   /* padding-bottom:20px; */
-  padding:62px 33px 43px 33px;
+  padding:42px 33px 63px 33px;
   /* max-height:490px; */
   max-height:385px;
   height:100%;
@@ -99,11 +99,10 @@ body {
 .notice-panel>h2 {
   text-align:left;
   width:100%;
-  max-width:326px;
+  max-width:220px;
   height:auto;
   font-size:26px;
-  padding-bottom:10px;
-  padding-bottom:20px;
+  padding-bottom:15px;
 }
 .notice-panel>h2>img {
   width:100%;
@@ -422,7 +421,7 @@ footer {
 .footer-logo {
   /* width:207px;
   height:45px; */
-  max-width:295px;
+  max-width:200px;
   height:auto;
   width:100%;
   display:flex;
@@ -544,15 +543,15 @@ address>span:not(:nth-child(1))::before {
   .notice-panel {
     width:calc(100% - 66px);
     
-    padding-top:34px;
-    padding-bottom:26px;
+    padding-top:26px;
+    padding-bottom:34px;
   }
   .login-panel {
     width:70%;
   }
   .notice-panel>h2 {
-    max-width:286px;
-    padding-bottom:10px;
+    max-width:196px;
+    padding-bottom:7px;
   }
   .notice-panel>p {
     padding-bottom:0;
@@ -582,7 +581,7 @@ address>span:not(:nth-child(1))::before {
     flex-direction:column;
   }
   .footer-logo {
-    max-width:265px;
+    max-width:175px;
   }
   .footer-info {
     padding:0;
@@ -625,6 +624,9 @@ address>span:not(:nth-child(1))::before {
   .wrap header>h1 {
     width:160px;
   }
+  .notice-panel>h2 {
+    max-width:186px;
+  }
   .login-panel>h2 {
     font-size:32px;
     padding-bottom:15px;
@@ -649,8 +651,11 @@ address>span:not(:nth-child(1))::before {
 
 @media (max-width: 420px) {
 
-  .panel {
-    padding:34px 33px;
+  .notice-panel {
+    padding:26px 33px;
+  }
+  .login-panel {
+    padding:36px 33px;
   }
   .panel>p {
     font-size:12px;

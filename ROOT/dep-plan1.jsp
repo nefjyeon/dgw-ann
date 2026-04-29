@@ -82,7 +82,7 @@
                     </td>
                     <td>나처장</td>
                     <td>2043126</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -99,7 +99,7 @@
                     </td>
                     <td>백과장</td>
                     <td>1234012</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -107,7 +107,7 @@
                     <td class="leftTextArea" rowspan="3">
                       <div class="wrap_org-part">
                         <span>교무과</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -126,7 +126,7 @@
                     </td>
                     <td>조과장</td>
                     <td>1243126</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -143,7 +143,7 @@
                     </td>
                     <td>이주임</td>
                     <td>1243252</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -160,7 +160,7 @@
                     </td>
                     <td>김직원</td>
                     <td>1333225</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -168,7 +168,7 @@
                     <td class="leftTextArea" rowspan="2">
                       <div class="wrap_org-part">
                         <span>학생과</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -187,7 +187,7 @@
                     </td>
                     <td>조과장</td>
                     <td>1243126</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -204,7 +204,7 @@
                     </td>
                     <td>정주임</td>
                     <td>1289890</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                   <tr>
@@ -212,7 +212,7 @@
                     <td class="leftTextArea" rowspan="4">
                       <div class="wrap_org-part">
                         <span>성인학습자관리센터</span>
-                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">- 부서 삭제</a>
+                        <a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">- 부서 삭제</a>
                         <a href="#" onclick="fn_addFile(this, 'D_ANALYSIS_DEV_Q1_1'); return false;" class="btn low blue btnEdit">+ 구성원 추가</a>
                       </div>
                     </td>
@@ -231,7 +231,7 @@
                     </td>
                     <td>정중앙</td>
                     <td>1234560</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -248,7 +248,7 @@
                     </td>
                     <td>부자왕</td>
                     <td>1232222</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -265,7 +265,7 @@
                     </td>
                     <td>박팀장</td>
                     <td>1256789</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -282,7 +282,7 @@
                     </td>
                     <td>주직원</td>
                     <td>1289899</td>
-                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;">-</a></td>
+                    <td><a href="#delSubject" class="btn low red" onclick="delSubject('20292', this); return false;" title="삭제">-</a></td>
                   </tr>
 
                 </tbody>
